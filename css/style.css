@@ -1,0 +1,49 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: goldenrod;
+}
+
+.container {
+	text-align: center;
+	background: #fff;
+	padding: 20px 25px;
+	border: 2px solid #000;
+	border-radius: 15px;
+	flex: 0 0 75%;
+	font-weight: bold;
+	box-shadow: 3px 3px 10px 10px #000;
+	text-transform: uppercase;
+}
+
+#lowerCounterBtn {
+	border: 2px solid red;
+	border-radius: 15px;
+	padding: 10px 15px;
+	background: red;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#addCounterBtn {
+	border: 2px solid green;
+	border-radius: 15px;
+	padding: 10px 15px;
+	background: green;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#lowerCounterBtn:hover {
+	cursor: pointer;
+	background: #fff;
+	color: red;
+}
+
+#addCounterBtn:hover {
+	cursor: pointer;
+	background: #fff;
+	color: green;
+}
